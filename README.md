@@ -5,8 +5,6 @@
 ---
 
 ## 📋 系統規格與模擬參數 (System Specifications & Parameters)
-* **課程作業**：Wireless Communications Homework II (Dr. Tsai, NTHU)
-* **學生資訊**：112021117 詹朝陽 (Chao-Yang Zhan)
 * **核心主題**：都普勒頻移分佈、PDF 與 CDF 統計模擬、古典都普勒頻譜解析與理論驗證
 * **模擬樣本數**：N = 1,111,111 點
 * **系統設定狀況**：
@@ -32,7 +30,7 @@
 
 | 狀況 (a) 機率密度函數 (PDF) (圖 1) | 狀況 (a) 累積分佈函數 (CDF) (圖 2) |
 | :---: | :---: |
-| ![PDF a](doppler_a_pdf.png)<br>*圖 1：v = 20 km/hr、fc = 2 GHz 之模擬 PDF* | ![CDF a](doppler_a_cdf.png)<br>*圖 2：v = 20 km/hr、fc = 2 GHz 之模擬 CDF* |
+| ![PDF a](pictures/(a)pdf.png)<br>*圖 1：v = 20 km/hr、fc = 2 GHz 之模擬 PDF* | ![CDF a](pictures/(a)cdf.png)<br>*圖 2：v = 20 km/hr、fc = 2 GHz 之模擬 CDF* |
 
 ---
 
@@ -43,7 +41,7 @@
 
 | 狀況 (b) 機率密度函數 (PDF) (圖 3) | 狀況 (b) 累積分佈函數 (CDF) (圖 4) |
 | :---: | :---: |
-| ![PDF b](doppler_b_pdf.png)<br>*圖 3：v = 90 km/hr、fc = 26 GHz 之模擬 PDF* | ![CDF b](doppler_b_cdf.png)<br>*圖 4：v = 90 km/hr、fc = 26 GHz 之模擬 CDF* |
+| ![PDF b](pictures/(b)pdf.png)<br>*圖 3：v = 90 km/hr、fc = 26 GHz 之模擬 PDF* | ![CDF b](pictures/(b)cdf.png)<br>*圖 4：v = 90 km/hr、fc = 26 GHz 之模擬 CDF* |
 
 ---
 
@@ -54,7 +52,7 @@
 
 | 狀況 (c) 機率密度函數 (PDF) (圖 5) | 狀況 (c) 累積分佈函數 (CDF) (圖 6) |
 | :---: | :---: |
-| ![PDF c](doppler_c_pdf.png)<br>*圖 5：v ~ Uniform(20, 90) km/hr 之模擬 PDF* | ![CDF c](doppler_c_cdf.png)<br>*圖 6：v ~ Uniform(20, 90) km/hr 之模擬 CDF* |
+| ![PDF c](pictures/(c)pdf.png)<br>*圖 5：v ~ Uniform(20, 90) km/hr 之模擬 PDF* | ![CDF c](pictures/(c)cdf.png)<br>*圖 6：v ~ Uniform(20, 90) km/hr 之模擬 CDF* |
 
 ---
 
@@ -81,6 +79,6 @@
 
 | PDF 理論與模擬對比 (圖 7) | CDF 理論與模擬對比 (圖 8) |
 | :---: | :---: |
-| ![PDF Theory vs Sim](doppler_theory_pdf.png)<br>*圖 7：PDF 模擬結果與理論曲線對比* | ![CDF Theory vs Sim](doppler_theory_cdf.png)<br>*圖 8：CDF 模擬結果與理論曲線對比* |
+| ![PDF Theory vs Sim](pictures/(d)pdf.png)<br>*圖 7：PDF 模擬結果與理論曲線對比* | ![CDF Theory vs Sim](pictures/(d)cdf.png)<br>*圖 8：CDF 模擬結果與理論曲線對比* |
 
 * **結論**：圖 7 顯示蒙地卡羅模擬產生的 PDF 完美吻合 Jakes 頻譜的經典浴缸形理論曲線（在 ±fm 處劇烈飆升）；圖 8 的經驗累積分佈函數亦與理論 CDF 完全重疊，證明本專案之理論推導與電腦模擬結果高度正確。
